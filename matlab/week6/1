@@ -1,0 +1,8 @@
+x1 = input('실수 x를 입력하시오');
+if x1>0
+    y1 = x1^2;
+else
+    y1 = 0;
+end
+disp('y:')
+disp(y1)
