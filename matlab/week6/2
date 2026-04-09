@@ -1,0 +1,13 @@
+m2 = input('1이상, 4이하의 정수를 입력하시오.');
+switch m2
+    case 1
+        disp('January')
+    case 2
+        disp('February')
+    case 3
+        disp('March')
+    case 4
+        disp('April')
+    otherwise
+        disp('invalid month')
+end
