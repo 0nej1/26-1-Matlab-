@@ -1,0 +1,8 @@
+x3 = [3 -5 0 8 -2 4 -7];
+sum3 = 0
+for i3 = 1:7
+    if x3(i3)<0
+        sum3 = sum3 + 1;
+    end
+end
+disp(sum3)
