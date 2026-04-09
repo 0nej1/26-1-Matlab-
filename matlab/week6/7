@@ -1,0 +1,11 @@
+
+N7 = input('N을 입력하시오');
+a7 = zeros(1, N7);
+for i7 = 1:N7
+    if rem(i7,2)==1
+        a7(i7)=i7^2;
+    else
+        a7(i7)=i7^3;
+    end
+end
+disp(a7)
