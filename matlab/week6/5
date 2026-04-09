@@ -1,0 +1,21 @@
+a5 = input('a를 입력하시오.');
+b5 = input('b를 입력하시오');
+cmd5 = input('cmd를 입력하시오','s');
+
+switch cmd5
+    case 'add'
+        disp(a5+b5)
+    case 'sub'
+        disp(a5-b5)
+    case 'mul'
+        disp(a5*b5)
+    case 'div'
+        if b5 == 0
+            disp('division by zero')
+        else
+            disp(a5/b5)
+        end
+    otherwise
+        disp('invalid command')
+end
+
