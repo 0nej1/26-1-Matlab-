@@ -1,0 +1,8 @@
+N6 = input('N을 입력하시오');
+sum6 = 0;
+for i6=1:N6
+    if rem(i6,3)==0 && rem(i6,2)~=0
+        sum6 = sum6 + i6;
+    end
+end
+disp(sum6)
